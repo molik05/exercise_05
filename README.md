@@ -3,10 +3,10 @@ Hirschberg's algorithm is a dynamic programming algorithm that finds the optimal
 **X** with length *m* and **Y** with length *n*.
 In comparison with Needleman-Wunsch algorithm, Hirschberg's algorithm is more space efficient:
 
-| Algorithm | Time complexity  | Space complexity |
-|---|------------------|------------------|
-| Needleman-Wunsch | *O*(*n* \* *m*)  | *O*(*n* \* *m*)  |
-| Hirschberg | *O*(*n* \* *m*) | *O*(*n* + *m*)   |
+| Algorithm | Time complexity | Space complexity |
+|---|-----------------|------------------|
+| Needleman-Wunsch | *O*(*m* \* *n*) | *O*(*m* \* *n*)  |
+| Hirschberg | *O*(*m* \* *n*) | *O*(*m* + *n*)   |
 
 ### Task
 Implement Hirschberg's algorithm - you can use a template `hirschberg_template.R`.
